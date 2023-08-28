@@ -1,0 +1,15 @@
+State :
+    1. State is an object, that stores a value, also have multiple properties.
+    2. It can be initialize by constructor.(Only used in class components).
+    3. State value can be change by the user interaction, mutable.
+    4. Updated by event handlers.
+    5. everyTime the state changes, react re-render the component.
+    6. Use this.setState({}) for changing the state value.
+         setState() => like a shallow merge, it can be overwritten on the previous state value.
+
+Props(properties) :
+    1. Allow use to pass arguments parent component to child, => like attributes in HTML tag
+    2. It helps to component makes more dynamic
+    3. Props in a component are read-only, cannot be changed, immutable.
+    4. Use in both functional and class component.
+    5. props are the set by parents for the child.
