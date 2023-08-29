@@ -1,0 +1,37 @@
+1. useEffect - useEffect(()=>{}, [])
+     1. Making request to an API from a backend server - fetching data
+     2. interact with browser apis - document or window - directly updating the DOM
+     3. setTimeout and setTimeInterval - timers
+
+     useEffect(<functional>, <dependencies>)
+
+     1. useEffect(()=>{
+          it render at every time
+     })
+
+     2. useEffect(()=>{
+          it render first time only
+     }, [])
+
+     3. useEffect(()=>{
+          it render first time only
+          any update on dependencies, it will update
+     }, [dependencies])
+
+
+
+2. useRef
+     useRef is a hook that allows to directly create a reference to the DOM element in functional component
+     in class component we use createRef which is similar to useRef.
+     const inRef = useRef();
+
+
+3. useContext
+     to avoid the props drilling we use context
+     1. it is used to manage state globally
+     2. no matter, how depth in the component
+     3. we need to follow three steps 
+          1. Create
+          2. Provide
+          3. Consume
+          for consume the value we need useContext

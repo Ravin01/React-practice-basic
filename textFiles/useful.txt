@@ -1,0 +1,16 @@
+Components
+   1. Components are the buildings blocks of the react application that represent the part of the user interface
+   2. re-usability
+   3. nested Components
+   4. re-rendering method
+
+Two types of components: Functional Components and class components
+   In class component we have stateless component and stateful component
+
+Export and import
+   1. Default :
+        export default <component-name>
+        import <component-name> as <name> from './';
+   2. Normal : 
+        export <name>
+        import {name, other name} from './'  

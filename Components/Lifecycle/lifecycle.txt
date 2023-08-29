@@ -1,0 +1,25 @@
+Lifecycle is the main reason for development of react.
+
+1. Initial
+2. Mounting phase
+    Components render for the first time,created and inserted into the DOM
+    1. Constructor() *
+    2. getDerivedStateFromProps()
+    3. render() *
+    4. componentDidMount() *
+3. Updating phase
+    If any interactions happened to the component through props or state, component will update.
+    This is the re-render process and comes from the DOM. 
+    1. getDerivedStateFromProps()
+    2. shouldComponentUpdate() *
+    3. render() *
+    4. getSnapshotBeforeUpdate()
+    5. componentDidUpdate() *
+4. Unmounting phase
+    Component is being removed from the DOM.
+    1.componentWillUnmount() *
+
+Constructor, render, componentDidMount, componentDidUpdate, componentWillUnmount => only used in class components
+
+but using useEffect hook ,which makes easier to use lifecycle of components 
+and also used in functional components also.
