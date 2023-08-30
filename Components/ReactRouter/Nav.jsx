@@ -2,6 +2,8 @@
 // import About from "./About";
 // import Contact from "./Contact";
 
+import {  NavLink } from "react-router-dom";
+
 const Nav = () => {
     const style={
         cursor : "pointer"
@@ -9,7 +11,7 @@ const Nav = () => {
     return (
         <div style={{
             height: "50px",
-            width : "50vw",
+            width : "80vw",
             background : "black"
         }}>
             <ul style={{
@@ -19,9 +21,18 @@ const Nav = () => {
                 alignItems : "center",
                 listStyle : "none"
             }}>
-                <li style={style}>Home</li>
-                <li style={style}>About</li>
-                <li style={style}>Contact</li>
+                <li style={style}>
+                    <NavLink to={'/'}>Home</NavLink>
+                </li>
+                <li style={style}>
+                    <NavLink to={"/about"}>About</NavLink>
+                </li>
+                <li style={style}>
+                    <NavLink to={"/contact"}>Contact</NavLink>
+                </li>
+                <li style={style}>
+                    <NavLink to={"/profile"}>Profile</NavLink>
+                </li>
             </ul>
         </div>
     )

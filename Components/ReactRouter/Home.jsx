@@ -1,9 +1,14 @@
-import Nav from "./Nav";
+import { Route, Routes } from "react-router-dom";
+import Profile from "./Profile";
 
-const Home = ()=>{
+const Home = () => {
     return (
         <div>
-<Nav />
+            <h2>Home</h2>
+            <Routes>
+
+                <Route path="profile" element={<Profile />} />
+            </Routes>
         </div>
     )
 }

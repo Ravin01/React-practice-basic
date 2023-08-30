@@ -1,4 +1,26 @@
 React-router, In the single page application router is most important.
 which is redirect to the different pages based on users but in the single html file. it can achieved by react router
 
+
+package:
+npm install react-router-dom
 Page should re-load at every time when load the new html file. but we can achieved many pages in single html file. 
+BrowserRoute
+Routes
+Route
+Link
+NavLink
+Navigate
+default Navigate
+Nested Route
+useParams
+searchParams
+
+
+<BrowserRouter>
+    <Routes>
+     <Route />
+     <Route />
+     <Route />
+    </Routes>
+</ BrowserRouter>

@@ -1,5 +1,9 @@
 // import {Component} from "react";
 
+
+
+
+
 // Components
 // import State from "../Components/PropsVsState/State";
 // import Props from "../Components/PropsVsState/Props";
@@ -9,11 +13,18 @@
 // import UseEffect from '../Components/Hooks/UseEffect/UseEffect';
 // import UseRef from '../Components/Hooks/useRef/UseRef';
 // import Previous from '../Components/Hooks/useRef/previous';
-import Parent from '../Components/Hooks/UseContext/Parent';
-import { Provider } from '../Components/Hooks/UseContext/MyContext';
+// import Parent from '../Components/Hooks/UseContext/Parent';
+// import { Provider } from '../Components/Hooks/UseContext/MyContext';
 // import Home from '../Components/ReactRouter/Home';
 // import Work from '../Work/Work';
 // import WorkContext from '../Work/WorkContext';
+import Body from '../Components/ReactRouter/Body';
+import Nav from '../Components/ReactRouter/Nav';
+import { BrowserRouter} from 'react-router-dom';
+// import Body from '../Work/Body';
+// import Nav from '../Work/Nav';
+
+
 
 
 // CSS
@@ -46,8 +57,9 @@ const App = () => {
   // ]
   return (
     <>
-      {/* Props and states */}
-      {/* <div>
+      <div>
+        {/* Props and states */}
+        {/* <div>
           <h2>Welcome, I am State</h2>
           <State />
           <div>
@@ -57,35 +69,49 @@ const App = () => {
             </ Props>
           </div>
         </div> */}
-      {/* List rendering */}
-      {/* <div>
+        {/* List rendering */}
+        {/* <div>
           <List names = {names}/>
         </div> */}
-      {/* Conditional Rendering */}
-      {/* <Condition /> */}
-      {/* LifeCycle */}
-      <div>
+        {/* Conditional Rendering */}
+        {/* <Condition /> */}
+        {/* LifeCycle */}
+
         {/* <LifeCycle /> */}
       </div>
       <div>
         {/* <UseEffect /> */}
         {/* <UseRef /> */}
         {/* <WorkContext.Provider value={5}>  */}
-          {/* <Work />  */}
+        {/* <Work />  */}
         {/* </WorkContext.Provider> */}
 
         {/* <Previous /> */}
         {/* <MyContext.Provider value={10}>
           <Parent />
         </MyContext.Provider> */}
-        <Provider >
-          <Parent />
-        </Provider>
-        {/* <Home /> */}
+        {/* <Provider > */}
+        {/* <Parent /> */}
+        {/* </Provider> */}
+        <BrowserRouter >
+         
+            <Nav />
+            <Body />
+          
+        </BrowserRouter>
+
+      </div>
+      <div>
+       
       </div>
     </>
   )
 }
+
+
+
+
+
 
 
 // Functional Component
