@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "name1",
+      "email": "email@gmail.com",
+      "age": "21",
+      "designation": "developer",
+      "package": "5LPA"
+    },
+    {
+      "id": 2,
+      "name": "name1",
+      "email": "email@gmail.com",
+      "age": "21",
+      "designation": "developer",
+      "package": "5LPA"
+    },
+    {
+      "id": 3,
+      "name": "name1",
+      "email": "email@gmail.com",
+      "age": "21",
+      "designation": "developer",
+      "package": "5LPA"
+    },
+    {
+      "id": 4,
+      "name": "name1",
+      "email": "email@gmail.com",
+      "age": "21",
+      "designation": "developer",
+      "package": "5LPA"
+    },
+    {
+      "id": 5,
+      "name": "name1",
+      "email": "email@gmail.com",
+      "age": "21",
+      "designation": "developer",
+      "package": "5LPA"
+    },
+    {
+      "name": "name8",
+      "email": "email@gmail.com",
+      "age": "21",
+      "designation": "developer",
+      "package": "8LPA",
+      "id": 8
+    },
+    {
+      "id": 7,
+      "name": "name6",
+      "email": "email@gmail.com",
+      "age": "21",
+      "designation": "developer",
+      "package": "8LPA"
+    },
+    {
+      "name": "name6",
+      "email": "email@gmail.com",
+      "age": "21",
+      "designation": "developer",
+      "package": "8LPA",
+      "id": 9
+    },
+    {
+      "id": 6,
+      "name": "name6",
+      "email": "email@gmail.com",
+      "age": "21",
+      "designation": "developer",
+      "package": "8LPA"
+    }
+  ]
+}
