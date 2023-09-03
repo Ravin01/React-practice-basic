@@ -12,8 +12,8 @@ const Body = () => {
     return (
         <div style={{
             backgroundColor: "#E74C3C",
-            height: "80vh",
-            width: "80vw",
+            height: "83vh",
+            width: "94vw",
             display: "flex",
             alignItems: "center",
             justifyContent: "center"
@@ -21,9 +21,9 @@ const Body = () => {
             <Routes>
                 <Route index  path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
-                <Route path="/about/:id" element={<About />} />
+                <Route path="/:id" element={<Id />} />
                 <Route path="/contact" element={<Contact />} />
-                <Route path="/profile">
+                <Route path="/edit">
                     <Route path="" element={<Profile />}/>
                     <Route path="name" element={<Name />}/>
                     <Route path="id" element={<Id />}/>

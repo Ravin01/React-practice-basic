@@ -11,7 +11,7 @@ const Nav = () => {
     return (
         <div style={{
             height: "50px",
-            width : "80vw",
+            width : "94vw",
             background : "black"
         }}>
             <ul style={{
@@ -31,7 +31,7 @@ const Nav = () => {
                     <NavLink to={"/contact"}>Contact</NavLink>
                 </li>
                 <li style={style}>
-                    <NavLink to={"/profile"}>Profile</NavLink>
+                    <NavLink to={"/edit"}>Profile</NavLink>
                 </li>
             </ul>
         </div>
